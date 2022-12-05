@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #133337;
+    /* overflow: hidden; */
+}
+.row{
+    margin-left: 6rem;
+}
+h1{
+    color: #32f5c8;
+    font-size: 9rem;
+    background-image:url(/Assets/User\ Avatar\ 3.svg);
+    background-repeat: no-repeat;
+
+    font-family: 'Catamaran', sans-serif;
+}
+p{
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    color: #a9bdc6;
+}
+.btn{
+    background-color: #32f5c8;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.contact img,p{
+    margin: 0 5px;
+}
